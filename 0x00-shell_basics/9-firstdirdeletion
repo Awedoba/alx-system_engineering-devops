@@ -1,2 +1,2 @@
 #!/bin/bash
-eval "rm -r tmp/my_first_directory/"
+eval "rmdir /tmp/my_first_directory"
