@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ab_path=’readlink -f “${BASH_SOURCE:-$0}”’
+
+echo $ab_path
