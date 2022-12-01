@@ -1,2 +1,2 @@
 #!/bin/bash
-eval "ls -laU /boot ../ ./"
+eval "ls -laU ./ ../ /boot"
