@@ -1,0 +1,2 @@
+#!/bin/bash
+echo ${FOO:0:10}
