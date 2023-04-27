@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-# Displays numbers from 1 to 100 in list format.
+# dig the data.
+
+awk '{print $1, $9}' ./apache-access.log | sort | uniq -c | sort -rn | awk '{print $1, $2, $3}'
