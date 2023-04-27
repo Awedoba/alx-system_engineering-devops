@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Read and cut.
+while IFS=: read -r username x uid gid comment home shell; do
+    echo "Username: $username"
+    echo "User ID: $uid"
+    echo "Home directory: $home"
+done < /etc/passwd
