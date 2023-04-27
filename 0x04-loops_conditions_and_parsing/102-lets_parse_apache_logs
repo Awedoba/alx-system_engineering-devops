@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-# Displays numbers from 1 to 100 in list format.
+# print apache log.
+
+awk '{print $1, $9i}' ./apache-access.log
